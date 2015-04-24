@@ -110,7 +110,7 @@ BOOST_THREAD_LIBRARY=
 # is itself parallelized or not. If set to 'yes' Blaze will not perform any additional
 # parallelization attempt, if set to 'no' Blaze will attempt to parallelize the execution
 # of BLAS kernels.
-BLAS="yes"
+BLAS="no"
 BLAS_INCLUDE_PATH=
 BLAS_INCLUDE_FILE=
 BLAS_IS_PARALLEL="no"

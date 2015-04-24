@@ -7,8 +7,7 @@ pkgdesc="A high performance C++ math library"
 arch=(any)
 url="https://github.com/dorofiykolya/blaze-lib"
 license=('BSD')
-depends=('blas'
-         'boost>=1.54.0'
+depends=('boost>=1.54.0'
          )
 source=("https://github.com/dorofiykolya/blaze-lib/archive/v$pkgver.tar.gz"
         'Configfile'
